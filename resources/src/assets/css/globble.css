@@ -1,0 +1,95 @@
+body, html, #app{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+p, h3, h4, ul, li, p, div, img {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+input{
+    /*-webkit-box-shadow : 0 0 0px 1000px white inset !important;*/
+}
+.margin-top {
+    margin-top: 2.6rem;
+}
+
+.list .el-tag, .list .button-new-tag {
+    margin: .65rem 0 0;
+}
+.list .el-tag, .el-tag {
+    margin-right: 10px;
+}
+
+.button-new-tag {
+    padding: 5px 9px;
+    margin-left: 5px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+    clear:both;
+}
+
+.el-card__header {
+    padding: 0 20px;
+}
+
+.el-pagination {
+    justify-content: center;
+}
+
+.v-note-wrapper .v-note-panel, .v-note-wrapper .v-note-op{
+    border: 1px solid #eaeaea;
+    box-shadow: none !important;
+}
+.v-note-wrapper .v-note-op{
+    border-bottom: 0;
+}
+.v-note-wrapper .v-note-op .right{
+    max-width: 50% !important;
+}
+.markdown-body p{
+    margin-bottom: 0 !important;
+}
+.v-note-wrapper .v-note-panel .v-note-show .v-show-content{
+    padding: 15px 20px !important;
+}
+.v-note-wrapper .v-note-panel .v-note-show .v-show-content, .v-note-wrapper .v-note-panel .v-note-show .v-show-content-html{
+    background-color: #fff !important;
+}
+.fwrap{
+    flex-wrap: wrap;
+}
+.light-font{
+    color: #999;
+    font-size: 12px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.el-table .cell{
+    line-height: 1 !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.el-menu{
+    border-radius:0;
+}
+.hide-upload .el-upload{
+    display: none;
+}
