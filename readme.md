@@ -21,5 +21,6 @@
     cd resources
     npm install
 ```
-### 安装完成
+
+安装完成，访问(http://localhost/admin)登陆体验
 
