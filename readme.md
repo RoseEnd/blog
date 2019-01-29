@@ -22,5 +22,5 @@
     npm install
 ```
 
-安装完成，访问(http://localhost/admin)登陆体验
+安装完成，访问(http://localhost/admin) 登陆体验
 
